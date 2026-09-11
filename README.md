@@ -76,7 +76,7 @@ managing the virtual machines required for the cybersecurity laboratory.
 
 ### Screenshot
 
-## Step 2: Create the NAT Network
+## Step 3: Create the NAT Network
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
@@ -87,11 +87,89 @@ A NAT Network was selected because multiple virtual machines connected to the sa
 
 This will allow future attacker and target VMs to communicate within the lab.
 
+## Step 4. Import Kali Linux
+The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+
+### Screenshot
+
+The VM network adapter was configured as follows:
+
+> Adapter 1
+> 
+> Attached to:NAT Network
+> 
+> Network:NatNetwork
+
+The VM was allocated:
+> RAM: 2048 MB
+
 ## Step 5. Configure the Kali Linux Network
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
 Example configuration:
 > IP Address: 10.0.0.2
+> 
 > Subnet Mask: 255.255.255.0
+>
 > Gateway: 10.0.0.1
+>
 > DNS: 8.8.8.8
+
+A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+
+### Screenshot
+
+## Step 6. Create a Clean VM Snapshot
+After completing the initial configuration, a VirtualBox snapshot was created.
+
+Example snapshot name:
+
+> Clean Kali - Network Setup
+
+The snapshot represents the clean baseline of the laboratory.
+
+If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+
+# 🔎 Lab Verification
+
+|✅ Test	|🧾 Command	|🎯 Expected Result|
+|---|---|---|
+|🌐 Check IP address	| > ip a ifconfig eth0	|Correct Kali IP displayed|
+|🌍 Test Internet connectivity	|ping 8.8.8.8	|Successful replies|
+|🔄 Verify snapshot	|Restore snapshot and run > ip a 	|Successful replies|
+
+### Screenshot
+
+# 🐞 Problems Encountered & Solutions
+## Problem 1. Internet Connectivity After Static IP Configuration
+
+After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
+
+One workaround used during this lab was:
+> sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+
+The network connection was then restarted/rebooted and connectivity was tested again.
+
+# 📚 What I Learned
+During this stage of the project, I learned:
+
+1. Installation of ZIP 7
+   This provides a known-good recovery point for future cybersecurity exercises.- How to identify the appropriate 7-Zip installer for Windows. 
+
+2. NAT vs NAT Network
+A standard NAT configuration and a NAT Network serve different purposes.
+A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
+
+This makes it useful for building a multi-machine cybersecurity laboratory.
+
+3. Virtual Machine Networking
+I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+
+4. Static IP Configuration
+I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+
+5. VM Snapshots
+I learned that a clean snapshot should be created before performing risky or experimental activities.
+
+6. The importance of documenting each stage of a technical project.
+
