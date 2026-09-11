@@ -30,5 +30,4 @@ cybersecurity laboratory environment.
 
 The Windows download page was reviewed and the appropriate installer
 for a 64-bit Windows x64 system was identified.
-
-### https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/main/screenshots01-7zip-download.png.png?raw=true
+https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/6a96228cf5af23d609a76c0fd4b54ca125006320/screenshots01-7zip-download.png.png
