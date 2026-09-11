@@ -31,4 +31,4 @@ cybersecurity laboratory environment.
 The Windows download page was reviewed and the appropriate installer
 for a 64-bit Windows x64 system was identified.
 
-### screenshots/01-7zip-download.png
+### screenshots01-7zip-download.png.png
