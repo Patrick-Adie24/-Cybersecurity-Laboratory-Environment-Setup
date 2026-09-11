@@ -153,23 +153,42 @@ The network connection was then restarted/rebooted and connectivity was tested a
 # 📚 What I Learned
 During this stage of the project, I learned:
 
-1. Installation of ZIP 7
+**1. Installation of 7-ZIP Installer**
    This provides a known-good recovery point for future cybersecurity exercises.- How to identify the appropriate 7-Zip installer for Windows. 
 
-2. NAT vs NAT Network
+**2. NAT vs NAT Network**
 A standard NAT configuration and a NAT Network serve different purposes.
 A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
 
 This makes it useful for building a multi-machine cybersecurity laboratory.
 
-3. Virtual Machine Networking
+**4. Virtual Machine Networking**
 I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
 
-4. Static IP Configuration
+**5. Static IP Configuration**
 I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
 
-5. VM Snapshots
+**6. VM Snapshots**
 I learned that a clean snapshot should be created before performing risky or experimental activities.
 
-6. The importance of documenting each stage of a technical project.
+7. The importance of documenting each stage of a technical project.
 
+# 🔐 Security & Ethical Use
+This laboratory is intended strictly for education purposes only.
+
+# 🔗 Resources
+- 7-Zip: https://7-zip.org/download.html
+- VirtualBox: https://virtualbox.org/wiki/Downloads
+- Kali Linux: https://kali.org/get-kali
+
+# 👤 Author
+**ADIE PATRICK BETIANG**
+Cybersecurity Professional B083
+
+*LinkedIn*:www.linkedin.com/in/patrick-adie-552840267
+---
+
+# 📌 Project Information
+**Program Name:** 
+Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup 
+**Repository:** GitHub
