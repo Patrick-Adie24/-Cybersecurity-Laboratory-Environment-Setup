@@ -65,3 +65,33 @@ cybersecurity laboratory environment.
 The Windows download page was reviewed and the appropriate installer
 for a 64-bit Windows x64 system was identified.
 
+### Screenshot
+
+## Step 2: Launch Oracle VirtualBox
+
+Oracle VirtualBox was opened after installation.
+
+VirtualBox will be used as the virtualization platform for creating and
+managing the virtual machines required for the cybersecurity laboratory.
+
+### Screenshot
+
+## Step 2: Create the NAT Network
+A dedicated NAT Network was created in VirtualBox.
+
+Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
+
+### Screenshot
+
+A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+
+This will allow future attacker and target VMs to communicate within the lab.
+
+## Step 5. Configure the Kali Linux Network
+The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+
+Example configuration:
+> IP Address: 10.0.0.2
+> Subnet Mask: 255.255.255.0
+> Gateway: 10.0.0.1
+> DNS: 8.8.8.8
