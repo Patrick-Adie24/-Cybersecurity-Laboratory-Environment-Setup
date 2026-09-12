@@ -71,7 +71,7 @@ cybersecurity laboratory environment.
 The Windows download page was reviewed and the appropriate installer
 for a 64-bit Windows x64 system was identified.
 
-### Screenshot
+![7-Zip Installer](https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/main/screenshots01-7zip-download.png.png?raw=true)
 
 ## Step 2: Launch Oracle VirtualBox
 
