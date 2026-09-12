@@ -80,7 +80,7 @@ Oracle VirtualBox was opened after installation.
 VirtualBox will be used as the virtualization platform for creating and
 managing the virtual machines required for the cybersecurity laboratory.
 
-### Screenshot
+![Oracle Virtualbox](https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/main/screenshots02-virtualbox-manager.png.png?raw=true)
 
 ## Step 3: Create the NAT Network
 A dedicated NAT Network was created in VirtualBox.
