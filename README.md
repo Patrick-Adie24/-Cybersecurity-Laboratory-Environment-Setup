@@ -105,6 +105,10 @@ The VM network adapter was configured as follows:
 > Attached to:NAT Network
 > 
 > Network:NatNetwork
+>
+> Adapter Type: Intel PRO/1000 MT Desktop
+
+
 
 The VM was allocated:
 > RAM: 2048 MB
