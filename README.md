@@ -125,9 +125,10 @@ Example configuration:
 >
 > DNS: 8.8.8.8
 
+![Kali-Vm-Static-Network-setting](https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/main/screenshot06-kali-linux-static-setting.png.png?raw=true
+
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-### Screenshot
 
 ## Step 6. Create a Clean VM Snapshot
 After completing the initial configuration, a VirtualBox snapshot was created.
@@ -209,4 +210,3 @@ Cybersecurity Professional B083
 # 📌 Project Information
 **Program Name:** 
 Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup 
-**Repository:** GitHub
