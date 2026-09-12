@@ -96,7 +96,7 @@ This will allow future attacker and target VMs to communicate within the lab.
 ## Step 4. Import Kali Linux
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
-### Screenshot
+![Kali-nux](https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/main/screenshot04-kali-linux.png.png?raw=true)
 
 The VM network adapter was configured as follows:
 
