@@ -1,10 +1,13 @@
 # -Cybersecurity-Laboratory-Environment-Setup
-Building an Isolated Virtual Laboratory for Penetration Testing and Ethical Hacking Practice
+**Building an Isolated Virtual Laboratory for Penetration Testing and Ethical Hacking Practice**
+
+---
 ## 📌 Project Overview
 This project presents the establishment of a controlled laboratory environment for practical networking and penetration-testing activities.
 
 The setup involves installing the required file-compression utility and configuring Oracle VirtualBox to create and manage virtual machines for practical testing and experimentation.
 
+---
 ## 🎯 Objectives
 
 The main objectives of this lab are to:
@@ -17,6 +20,7 @@ The main objectives of this lab are to:
 - Document each stage of the laboratory setup.
 - Prepare the environment for future cybersecurity projects.
 
+---
 ## 🛡️ Purpose of the Lab
 
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
@@ -32,6 +36,7 @@ It can be used for activities such as:
 
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
+---
 ## ⚙️ Lab Configuration
 
 |🧩 Component|⚙️ Configuration|
@@ -48,13 +53,14 @@ It can be used for activities such as:
 | 🚪 Default Gateway | 10.0.0.1 |
 | 🌍 DNS Server | 8.8.8.8 |
 
-
+---
 ## 🛠️ Tools Used
 
 - Windows 10 💻
 - 7-Zip 🗜️
 - Oracle VirtualBox 🖥️
 
+---
 # 🧪 Lab Setup Procedure
 
 ## Step 1: Download 7-Zip
@@ -130,6 +136,7 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
+---
 # 🔎 Lab Verification
 
 |✅ Test	|🧾 Command	|🎯 Expected Result|
@@ -140,6 +147,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ### Screenshot
 
+---
 # 🐞 Problems Encountered & Solutions
 ## Problem 1. Internet Connectivity After Static IP Configuration
 
@@ -150,6 +158,7 @@ One workaround used during this lab was:
 
 The network connection was then restarted/rebooted and connectivity was tested again.
 
+---
 # 📚 What I Learned
 During this stage of the project, I learned:
 
@@ -168,21 +177,26 @@ I learned how VirtualBox virtual network adapters connect virtual machines to di
 **5. Static IP Configuration**
 I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
 
+---
 **6. VM Snapshots**
 I learned that a clean snapshot should be created before performing risky or experimental activities.
 
 7. The importance of documenting each stage of a technical project.
 
+---
 # 🔐 Security & Ethical Use
 This laboratory is intended strictly for education purposes only.
 
+---
 # 🔗 Resources
 - 7-Zip: https://7-zip.org/download.html
 - VirtualBox: https://virtualbox.org/wiki/Downloads
 - Kali Linux: https://kali.org/get-kali
 
+---
 # 👤 Author
 **ADIE PATRICK BETIANG**
+
 Cybersecurity Professional B083
 
 *LinkedIn*:www.linkedin.com/in/patrick-adie-552840267
