@@ -108,7 +108,7 @@ The VM network adapter was configured as follows:
 >
 > Adapter Type: Intel PRO/1000 MT Desktop
 
-
+![Kali-Vm-Network-Adapter](https://github.com/Patrick-Adie24/-Cybersecurity-Laboratory-Environment-Setup/blob/main/Screenshot05-VM%20network-adapter.png.png?raw=true)
 
 The VM was allocated:
 > RAM: 2048 MB
